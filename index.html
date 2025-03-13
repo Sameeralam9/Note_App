@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DigiBook</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="./src/fevicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,696;1,9..144,696&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <span>DigiBook</span>
+      </div>
+      <div class="links">
+        <div class="options" id="home">
+          <a href="./index.html">Home</a>
+        </div>
+        <div class="options" id="allNoteDiv">
+          <a id="allNotes" href="#">All Notes</a>
+        </div>
+      </div>
+    </nav>
+    <main class="normal">
+      <div class="mainNote">
+        <div class="inputs">
+          <input id="title" type="text" placeholder="Enter Title" />
+          <textarea
+            placeholder="Add Notes Hare...."
+            name="Notes"
+            id="notes"
+          ></textarea>
+        </div>
+        <div class="btnholder">
+          <button id="btn">Add Notes</button>
+        </div>
+      </div>
+      <div class="recent">
+        <h2>Recent notes__,</h2>
+        <hr />
+        <div class="note"></div>
+      </div>
+    </main>
+    <footer>
+      <div class="reseved">© 2025 DigiBook —All rights reserved.</div>
+      <div class="contactInfo">
+        <span>Privacy Notice</span>
+        <span>Terms & Conditions</span>
+        <span>Contact Us</span>
+      </div>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="animation.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
