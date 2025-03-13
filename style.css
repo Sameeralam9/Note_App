@@ -184,15 +184,6 @@ hr {
   line-height: 1.26em;
 }
 
-footer {
-  background-color: rgb(255, 255, 255);
-  padding: 1vw 4vw;
-  box-sizing: border-box;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 .contactInfo {
   display: flex;
   justify-content: space-between;
@@ -258,12 +249,7 @@ footer {
     bottom: 0;
   }
 }
-@media (max-width: 1400px) {
-  footer {
-    position: absolute;
-    bottom: 0;
-  }
-}
+
 @media (max-width: 800px) {
   .note {
     display: grid;
@@ -310,15 +296,7 @@ footer {
   .recent {
     padding: 1em 0;
   }
-  footer {
-    padding-top: 1rem;
-    margin-top: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    position: absolute;
-    bottom: 0;
-  }
+
   .contactInfo {
     gap: 2rem;
   }
@@ -345,12 +323,7 @@ footer {
   .inputs {
     gap: 1rem;
   }
-  footer {
-    position: relative;
-    font-size: 0.7rem;
-    gap: 0.8em;
-    margin: 0;
-  }
+
   .inputs textarea {
     max-width: 80vw;
     height: 30vw;
